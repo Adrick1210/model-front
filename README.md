@@ -20,3 +20,6 @@ Netlify Deploy
 
 ## Show
 ![show](./images/show.png)
+
+# Wireframe
+![architect](./images/wireframe.png)
