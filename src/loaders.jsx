@@ -7,7 +7,7 @@ export const indexLoader = async () => {
 }
 
 export const kitLoader = async ({ params }) => {
-    const response = await fetch(`${URL}${params.id}`)
+    const response = await fetch(`${URL}${params.id}/`)
     const kit = await response.json()
     return kit
 }
