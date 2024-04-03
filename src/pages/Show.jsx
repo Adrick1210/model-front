@@ -14,7 +14,12 @@
       <Link to="/">
       <button>Return</button>
       </Link>
-        
+      <Link>
+      <button>Edit</button>
+      </Link> 
+      <Link>
+      <button>Delete</button>
+      </Link> 
      </div>
      </div>
     )
