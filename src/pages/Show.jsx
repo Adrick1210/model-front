@@ -6,17 +6,18 @@
     const id = kit?.url.split("/")[4]
 
     return (
-      <div>
-     <div>
+      <div className="container">
+     <div className="card">
         <img src={kit.box_art} alt={kit.box_art} />
         <h1>{kit.name}</h1>
         <h2>Bandai Kit #{kit.model_id}</h2>
+        <h2>{kit.release_date}</h2>
      </div>
-     <div>
+     <div className="buttons">
       <Link to="/">
       <button>Return</button>
       </Link>
-      <Link to={`/update/${id}`}>
+      <Link to="/update">
       <button>Edit</button>
       </Link> 
       <Form action={`/delete/${id}/`} method="POST">

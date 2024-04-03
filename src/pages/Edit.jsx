@@ -6,7 +6,7 @@ import { Form, Link } from "react-router-dom"
     // const id = kit?.url.split("/")[4]
 
   return (
-    <div>
+    <div className="container">
         <Link to="/">
             <button>Return</button>
         </Link>

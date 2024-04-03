@@ -2,13 +2,13 @@ import { Form, Link } from "react-router-dom"
 
  function Add() {
   return (
-    <div>
+    <div className="container">
         <Link to="/">
             <button>Return</button>
         </Link>
 
         <h1>Add a Model</h1>
-        <div>
+        <div className="form">
         <Form action="/add" method="POST">
          <label htmlFor="model_id">
             <input type="number" name="model_id" id="model_id" placeholder="Model ID"/>
