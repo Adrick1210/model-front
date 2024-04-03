@@ -4,11 +4,11 @@
  function Index() {
   const allKits = useLoaderData()
    return (
-    <div>
+    <div className="container">
      <Link to="/create">
      <button>Add +</button>
      </Link>
-    <div>
+    <div className="gallery">
       {allKits.map((kit, i) => <Kit kit={kit} key={i}/>)}
     </div>
     </div>

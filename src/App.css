@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   border: 1px solid white;
   position: absolute;
@@ -14,10 +19,41 @@
   width: 100%;
 }
 
+.container {
+  border: 1px solid white;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  bottom: 75px;
+  max-width: none;
+}
+
+.gallery {
+  border: 1px solid white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  overflow-y: scroll;
+  /* overflow-y: hidden; */
+  height: 600px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.gallery img {
+  height: 200px;
+  width: 300px;
+  display: flex;
+}
+
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
+  z-index: 1;
   border: 1px solid white;
+  background-color: grey;
   width: 100%;
   left: 0;
 }
