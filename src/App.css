@@ -11,7 +11,8 @@ body {
 }
 
 .header {
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  background-color: rgb(11, 24, 168);
   position: absolute;
   top: 0;
   margin-top: 3px;
@@ -20,26 +21,34 @@ body {
 }
 
 .container {
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  background-color: whitesmoke;
   position: absolute;
   left: 0;
-  top: 80px;
+  top: 78px;
   bottom: 75px;
   max-width: none;
 }
+ .container button {
+  margin-top: 10px;
+  color: black;
+  background-color: red;
+  outline: none;
+  border: none;
+ }
 
 .gallery {
-  border: 1px solid white;
+  border: 1px solid black;
   margin-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
-  overflow-y: scroll;
-  /* overflow-y: hidden; */
-  height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 700px;
   justify-content: center;
-  padding: 10px;
+  padding: 12px;
 }
 
 .gallery img {
@@ -52,8 +61,8 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1;
-  border: 1px solid white;
-  background-color: grey;
+  /* border: 1px solid white; */
+  background-color: rgb(243, 243, 0);
   width: 100%;
   left: 0;
 }
