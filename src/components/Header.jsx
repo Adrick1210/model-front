@@ -2,7 +2,7 @@ function Header() {
   return (
     <div className="header">
       <h1>Model Meister</h1>
-      <img src="\images\gundam_exia_by_etiger1995_d91qpz2-fullview.png" alt="icon" />
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0bfe9ded-a300-4eca-bef1-8af7f3f7adc8/d91qpz2-542fdf73-a81c-4506-8d24-59566ee08975.png/v1/fill/w_1024,h_790/gundam_exia_by_etiger1995_d91qpz2-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBiZmU5ZGVkLWEzMDAtNGVjYS1iZWYxLThhZjdmM2Y3YWRjOFwvZDkxcXB6Mi01NDJmZGY3My1hODFjLTQ1MDYtOGQyNC01OTU2NmVlMDg5NzUucG5nIiwiaGVpZ2h0IjoiPD03OTAiLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC8wYmZlOWRlZC1hMzAwLTRlY2EtYmVmMS04YWY3ZjNmN2FkYzhcL2V0aWdlcjE5OTUtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.JfjtGiaxCxXTgLv_2QzMF6JX9j2BKpPqiLvlhKaTmuo" />
     </div>
   )
 }
