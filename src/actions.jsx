@@ -27,3 +27,14 @@ export const createAction = async ({ request }) => {
     })
     return redirect("/")
 }
+
+// UPDATE
+
+// DELETION
+export const deleteAction = async ({ params }) => {
+    const id = params.id
+    await fetch(`${URL}${id}/`, {
+        method: "DELETE"
+    })
+    return redirect("/")
+}

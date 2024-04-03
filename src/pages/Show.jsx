@@ -1,7 +1,9 @@
-  import { Link, useLoaderData } from "react-router-dom";
+  import { Link, useLoaderData, Form } from "react-router-dom";
   
   function Show() {
     const kit = useLoaderData()
+
+    const id = kit?.url.split("/")[4]
 
     return (
       <div>
@@ -17,9 +19,9 @@
       <Link>
       <button>Edit</button>
       </Link> 
-      <Link>
+      <Form action={`/delete/${id}/`} method="POST">
       <button>Delete</button>
-      </Link> 
+      </Form> 
      </div>
      </div>
     )
