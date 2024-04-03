@@ -8,8 +8,10 @@
      <Link to="/create">
      <button>Add +</button>
      </Link>
-    <div className="gallery">
-      {allKits.map((kit, i) => <Kit kit={kit} key={i}/>)}
+     <div className="list">
+      <div className="gallery">
+        {allKits.map((kit, i) => <Kit kit={kit} key={i}/>)}
+      </div>
     </div>
     </div>
    )

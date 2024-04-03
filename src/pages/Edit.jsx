@@ -12,7 +12,7 @@ import { Form, Link } from "react-router-dom"
         </Link>
 
         <h1>Update </h1>
-        <div>
+        <div className="form">
         <Form action={`/update/`} method="POST">
          <label htmlFor="model_id">
             <input type="number" name="model_id" id="model_id" />

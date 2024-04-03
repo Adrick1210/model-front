@@ -17,7 +17,7 @@ body {
 .header {
   /* border: 1px solid white; */
   background-color: rgb(11, 24, 168);
-  position: absolute;
+  position: fixed;
   top: 0;
   margin-top: 3px;
   left: 0;
@@ -25,6 +25,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
+  box-shadow: 0px 30px 20px -25px rgba(0,0,0,0.75);
+  z-index: 1;
 }
 
 .header img {
@@ -50,25 +52,31 @@ body {
   max-width: none;
 }
  .container button {
-  margin-top: 10px;
+  margin-top: 18px;
   color: black;
   background-color: red;
   outline: none;
   border: none;
  }
 
+ .list {
+  /* overflow: hidden; */
+  /* height: 690px; */
+  /* border: 1px solid black; */
+ }
+
 .gallery {
   border: 1px solid black;
   border-radius: 10px;
   background-color: rgb(238, 237, 237);
-  margin-top: 10px;
+  margin-top: 4px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 60px;
-  overflow-y: auto;
-  overflow-x: hidden;
   height: 690px;
+  overflow-y: scroll;
+  scrollbar-width: none;
   justify-content: center;
   padding: 12px;
 }
@@ -82,8 +90,9 @@ body {
 /* show page  */
 
 .card {
-  margin-top: 25px;
-  border: 1px solid black;
+  margin-top: 15px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
   padding: 12px;
 }
 
@@ -92,12 +101,21 @@ body {
 }
 
 .buttons {
-  border: 1px solid black;
-  margin-top: 20px;
+  /* border: 1px solid black; */
+  margin-top: 4px;
   display: flex;
   justify-content: center;
   gap: 15px;
   align-items: center;
+}
+
+.delete {
+  /* border: 1px solid black; */
+  height: 38px;
+}
+
+.delete button {
+  margin-top: 16px;
 }
 
 .id {
@@ -110,7 +128,34 @@ body {
 .lists {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 80px;
+}
+
+/* Form styles  */
+#release_date {
+  color: rgb(87, 80, 80);
+}
+
+.form {
+  /* border: 1px solid black; */
+  padding: 20px;
+  max-width: none;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  /* border: 1px solid black; */
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 670px;
+}
+
+input {
+  width: 200px;
+  border: 1px solid black;
 }
 
 /* footer styles  */
@@ -123,6 +168,7 @@ body {
   background-color: rgb(243, 243, 0);
   width: 100%;
   left: 0;
+  box-shadow: 0px -12px 30px rgba(82, 81, 81, 0.75);
 }
 
 .footer h5 {
@@ -130,7 +176,6 @@ body {
   margin-top: 10px;
   /* border: 1px solid black */
   margin: 2px;
-
 }
 
 .links {

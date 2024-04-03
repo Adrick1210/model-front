@@ -17,17 +17,17 @@
         
         <div className="lists">
           <div>
-            <h2>prices</h2>
+            <h2>Prices</h2>
             <ul>
-              <li>${kit.price_us}</li>
-              <li>&yen;{kit.price_jp} </li>
+              <li>US - ${kit.price_us}</li>
+              <li>Japan - &yen;{kit.price_jp} </li>
             </ul>
           </div>
           <div>
             <h2>Specs</h2>
             <ul>
-              <li>{kit.grade}</li>
-              <li>{kit.scale}</li>
+              <li>Grade - {kit.grade}</li>
+              <li>Scale - {kit.scale}</li>
             </ul>
           </div>
         </div>
@@ -40,8 +40,8 @@
       <Link to="/update">
       <button>Edit</button>
       </Link> 
-      <Form action={`/delete/${id}/`} method="POST">
-      <button>Delete</button>
+      <Form action={`/delete/${id}/`} method="POST" className="delete">
+      <button className="delete">Delete</button>
       </Form> 
      </div>
      </div>
