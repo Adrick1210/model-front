@@ -37,7 +37,7 @@
       <Link to="/">
       <button>Return</button>
       </Link>
-      <Link to="/update">
+      <Link to={`/edit/${id}`}>
       <button>Edit</button>
       </Link> 
       <Form action={`/delete/${id}/`} method="POST" className="delete">
