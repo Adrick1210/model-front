@@ -59,12 +59,6 @@ body {
   border: none;
  }
 
- .list {
-  /* overflow: hidden; */
-  /* height: 690px; */
-  /* border: 1px solid black; */
- }
-
 .gallery {
   border: 1px solid black;
   border-radius: 10px;
