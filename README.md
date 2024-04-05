@@ -7,6 +7,7 @@ Trello Board
 - https://trello.com/b/XeFZt5Fu/model-meister
 
 Netlify Deploy
+- https://model-meister.netlify.app/
 
 # Mockup
 ## Index

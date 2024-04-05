@@ -45,7 +45,6 @@ body {
   position: absolute;
   left: 0;
   top: 78px;
-  /* bottom: 75px; */
   max-width: none;
   padding: 0;
   height: 100vh;
@@ -102,7 +101,6 @@ body {
 }
 
 .delete {
-  /* border: 1px solid black; */
   height: 38px;
 }
 
@@ -130,7 +128,6 @@ body {
 }
 
 .form {
-  /* border: 1px solid black; */
   padding: 20px;
   max-width: none;
   justify-content: center;
@@ -138,7 +135,6 @@ body {
 }
 
 label {
-  /* border: 1px solid black; */
   width: 500px;
   justify-content: center;
   align-items: center;
@@ -157,7 +153,6 @@ input {
   position: fixed;
   bottom: 0;
   z-index: 1;
-  /* border: 1px solid white; */
   background-color: rgb(243, 243, 0);
   width: 100%;
   left: 0;
@@ -167,7 +162,6 @@ input {
 .footer h5 {
   color: black;
   margin-top: 10px;
-  /* border: 1px solid black */
   margin: 2px;
 }
 
