@@ -6,12 +6,12 @@ import { Form, Link, useLoaderData } from "react-router-dom"
     const id = kit?.url.split("/")[4]
 
   return (
-    <div className="container">
+    <div className="input">
         <Link to="/">
             <button>Return</button>
         </Link>
 
-        <h1>Update {kit.name}</h1>
+        <h1 className="edit-head">Update {kit.name}</h1>
         <div className="form">
         <Form action={`/update/${id}/`} method="POST">
          <label htmlFor="model_id">

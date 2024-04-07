@@ -2,7 +2,7 @@ import { Form, Link } from "react-router-dom"
 
  function Add() {
   return (
-    <div className="container">
+    <div className="input">
         <Link to="/">
             <button>Return</button>
         </Link>

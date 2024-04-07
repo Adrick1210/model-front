@@ -147,6 +147,26 @@ body {
 }
 
 /* Form styles  */
+
+.input {
+  background-color: whitesmoke;
+  position: absolute;
+  left: 0;
+  top: 78px;
+  max-width: none;
+  padding: 0;
+  height: 100vh;
+}
+
+.input button {
+  margin-top: 18px;
+  color: black;
+  background-color: red;
+  outline: none;
+  border: none;
+ }
+
+
 #release_date {
   color: rgb(87, 80, 80);
 }
@@ -202,22 +222,18 @@ input {
   height: 35px;
 }
 
-@media only screen and (min-width: 1300px) {
-  input {
-    margin-left: 480px;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   .header {
     margin: auto;
     padding: 0;
     height: 35px;
+    background-color: rgb(241, 237, 6);
   }
   .header h1{
      font-size: 23px;
      position: fixed;
      left: 40px;
+     color: black;
   }
   .header img {
     height: 25px;
@@ -229,6 +245,7 @@ input {
   }
   .container {
     margin-top: 2px;
+    margin-bottom: 2px;
   }
   .gallery {
     margin-top:-8.9px;
@@ -245,8 +262,23 @@ input {
   .footer {
     height: 40px;
     padding: 4px;
+    background-color: rgb(36, 14, 235);
   }
   .links img {
     height: 30px;
+  }
+  label {
+      margin: auto;
+      width: 350px;
+  }
+  .input {
+    position: fixed;
+    top: 35px;
+    right: 0;
+    min-height: 50px;
+  }
+  .edit-head {
+    margin-top: 45px;
+    font-size: 30px;
   }
 }
