@@ -7,6 +7,7 @@ import Edit from "./pages/Edit";
 import High from "./pages/High";
 import Master from "./pages/Master";
 import Real from "./pages/Real";
+import Special from "./pages/Special"
 import { indexLoader, kitLoader } from "./loaders";
 import { createAction, deleteAction, updateAction } from './actions'
 
@@ -23,6 +24,7 @@ const router = createBrowserRouter(createRoutesFromElements(
        <Route path="/high-grade" element={<High/>} loader={indexLoader}/>
        <Route path="/master-grade" element={<Master/>} loader={indexLoader}/>
        <Route path="/real-grade" element={<Real/>} loader={indexLoader}/>
+       <Route path="/special" element={<Special/>} loader={indexLoader}/>
     </Route>
     </>
 )) 

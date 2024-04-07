@@ -16,6 +16,9 @@ return (
         <Link to="/real-grade">
             <h4>RG</h4>
         </Link>
+        <Link to="/special">
+            <h4>Other</h4>
+        </Link>
         <Link to="/create">
             <h4>Add</h4>
         </Link>
