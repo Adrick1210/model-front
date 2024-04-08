@@ -5,7 +5,7 @@ export default function Nav() {
 return (
     <div className="nav">
         <Link to="/">
-            <h4>Index</h4>
+            <h4>Home</h4>
         </Link>
         <Link to="/high-grade">
             <h4>HG</h4>

@@ -248,7 +248,7 @@ input {
     margin-bottom: 2px;
   }
   .gallery {
-    margin-top:-8.9px;
+    margin-top:-16px;
     gap: 28px;
     padding-bottom: 35px;
   }
@@ -269,16 +269,27 @@ input {
   }
   label {
       margin: auto;
-      width: 350px;
+      width: 300px;
   }
   .input {
     position: fixed;
     top: 35px;
     right: 0;
-    min-height: 50px;
+    min-height: 100px;
+    padding: 8px;
   }
   .edit-head {
     margin-top: 45px;
     font-size: 30px;
+  }
+  .add-head {
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  .nav {
+    gap: 20px;
+  }
+  .nav h4 {
+    font-size: 17px;
   }
 }

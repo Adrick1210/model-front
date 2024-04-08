@@ -7,8 +7,8 @@ import { Form, Link } from "react-router-dom"
             <button>Return</button>
         </Link>
 
-        <h1>Add a Model</h1>
         <div className="form">
+        <h1 className="add-head">Add a Model</h1>
         <Form action="/add" method="POST">
          <label htmlFor="model_id">
             <input type="number" name="model_id" id="model_id" placeholder="Model ID"/>
