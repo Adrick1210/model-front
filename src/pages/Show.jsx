@@ -6,7 +6,7 @@
     const id = kit?.url.split("/")[4]
 
     return (
-      <div className="container">
+      <div className="show-container">
      <div className="card">
         <img src={kit.box_art} alt={kit.box_art} />
       <div className="id">
@@ -31,7 +31,7 @@
             </ul>
           </div>
         </div>
-        <h2>{kit.release_date}</h2>
+        <h2 className="release">{kit.release_date}</h2>
      </div>
      <div className="buttons">
       <Link to="/">
