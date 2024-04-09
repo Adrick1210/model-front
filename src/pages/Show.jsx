@@ -5,6 +5,8 @@
 
     const id = kit?.url.split("/")[4]
 
+    window.scrollTo(0,0);
+
     return (
       <div className="show-container">
      <div className="card">
