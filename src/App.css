@@ -171,7 +171,7 @@ button {
   left: 0;
   right: 0;
   top: 78px;
-  max-width: 100%;
+  max-width: none;
   padding: 0;
   height: 950px;
 }
@@ -289,11 +289,7 @@ input {
     width: 300px;
   }
   .input {
-    position: fixed;
     top: 35px;
-    left: 0;
-    min-height: 100px;
-    padding: 8px;
   }
   .edit-head {
     margin-top: 45px;
