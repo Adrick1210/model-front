@@ -29,6 +29,7 @@ return (
         </div>
 
     <div className={menu_class}>
+        <div className="menu">
         <h1>Menu</h1>
         <Link to="/">
             <h4>Home</h4>
@@ -48,6 +49,7 @@ return (
         <Link to="/create">
             <h4>Add</h4>
         </Link>
+    </div>
     </div>
     </div>
     )
