@@ -1,9 +1,35 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
+import "./nav.css"
 
 export default function Nav() {
+    
+    const [burger_class, setBurgerClass] = useState("burger-line")
+    const [menu_class, setMenuClass] = useState("nav hidden")
+    const [isMenuClicked, setIsMenuClicked] = useState(false)
+
+    const updateNav = () => {
+        if(!isMenuClicked) {
+            setBurgerClass("burger-line clicked")
+            setMenuClass("nav visible")
+        }
+        else {
+            setBurgerClass("burger-line unclicked")
+            setMenuClass("nav hidden")
+        }
+        setIsMenuClicked(!isMenuClicked)
+    }
 
 return (
-    <div className="nav">
+    <div>
+        <div className="burger-icon" onClick={updateNav}>
+            <div className={burger_class}></div>
+            <div className={burger_class}></div>
+            <div className={burger_class}></div>
+        </div>
+
+    <div className={menu_class}>
+        <h1>Menu</h1>
         <Link to="/">
             <h4>Home</h4>
         </Link>
@@ -22,6 +48,7 @@ return (
         <Link to="/create">
             <h4>Add</h4>
         </Link>
+    </div>
     </div>
     )
 }
