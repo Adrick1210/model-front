@@ -1,4 +1,5 @@
 import { Form, Link, useLoaderData } from "react-router-dom"
+import Nav from "../components/Nav"
 
  function Edit() {
     const kit = useLoaderData()
@@ -7,8 +8,9 @@ import { Form, Link, useLoaderData } from "react-router-dom"
 
   return (
     <div className="input">
+      <Nav />
         <Link to="/">
-            <button>Return</button>
+            <button className="return">Return</button>
         </Link>
 
         <h1 className="edit-head">Update {kit.name}</h1>

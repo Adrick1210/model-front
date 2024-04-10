@@ -1,4 +1,5 @@
   import { Link, useLoaderData, Form } from "react-router-dom";
+  import Nav from "../components/Nav";
   
   function Show() {
     const kit = useLoaderData()
@@ -9,6 +10,7 @@
 
     return (
       <div className="show-container">
+        <Nav />
      <div className="card">
         <img src={kit.box_art} alt={kit.box_art} />
       <div className="id">
@@ -37,7 +39,7 @@
      </div>
      <div className="buttons">
       <Link to="/">
-      <button>Return</button>
+      <button className="return">Return</button>
       </Link>
       <Link to={`/edit/${id}`}>
       <button>Edit</button>

@@ -21,16 +21,17 @@ export default function Nav() {
     }
 
 return (
-    <div>
+    <div className="navigation">
         <div className="burger-icon" onClick={updateNav}>
             <div className={burger_class}></div>
             <div className={burger_class}></div>
             <div className={burger_class}></div>
         </div>
-
     <div className={menu_class}>
-        <div className="menu">
+    <div className="background">
+        <div className="menu-container">
         <h1>Menu</h1>
+        <div className="menu">
         <Link to="/">
             <h4>Home</h4>
         </Link>
@@ -49,6 +50,8 @@ return (
         <Link to="/create">
             <h4>Add</h4>
         </Link>
+    </div>
+    </div>
     </div>
     </div>
     </div>

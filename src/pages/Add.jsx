@@ -1,10 +1,12 @@
 import { Form, Link } from "react-router-dom"
+import Nav from "../components/Nav";
 
  function Add() {
   return (
     <div className="input">
+      <Nav />
         <Link to="/">
-            <button>Return</button>
+            <button className="return">Return</button>
         </Link>
 
         <div className="form">
