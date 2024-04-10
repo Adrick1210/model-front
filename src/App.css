@@ -147,7 +147,7 @@ button {
 
 .input {
   background-color: whitesmoke;
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   top: 78px;
