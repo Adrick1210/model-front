@@ -262,7 +262,7 @@ input {
     width: 300px;
   }
   .input {
-    top: 35px;
+    top: 5px;
   }
   .edit-head {
     margin-top: 45px;
@@ -302,8 +302,8 @@ input {
   }
   .buttons {
     position: absolute;
-    top: 700px;
-    left: 27px;
+    top: 620px;
+    left: 75px;
     gap: 20px;
   }
   .delete button {
